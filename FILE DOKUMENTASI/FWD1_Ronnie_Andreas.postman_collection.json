@@ -1,0 +1,347 @@
+{
+	"info": {
+		"_postman_id": "52f0eb38-40be-4f83-9b46-1836cb23dfe0",
+		"name": "FWD1_Ronnie_Andreas",
+		"description": "Nama : Ronnie Andreas\n\nKelas : FWD1\n\nUniversitas : Gunadarma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24101085"
+	},
+	"item": [
+		{
+			"name": "tasks",
+			"item": [
+				{
+					"name": "tasks",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "category_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "Ronnie",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Ronnie",
+									"type": "text"
+								},
+								{
+									"key": "start_date",
+									"value": "2022-10-11",
+									"type": "text"
+								},
+								{
+									"key": "finish_date",
+									"value": "2022-10-12",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "New",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/TugasDokumentasiApi/api/task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TugasDokumentasiApi",
+								"api",
+								"task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tasks",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "category_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "Ronnie",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Belajar",
+									"type": "text"
+								},
+								{
+									"key": "start_date",
+									"value": "2022-10-20",
+									"type": "text"
+								},
+								{
+									"key": "finish_date",
+									"value": "2022-10-28",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "Finish",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/TugasDokumentasiApi/api/task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TugasDokumentasiApi",
+								"api",
+								"task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tasks",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "category_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "Andreas",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Berhasil",
+									"type": "text"
+								},
+								{
+									"key": "start_date",
+									"value": "2022-10-22",
+									"type": "text"
+								},
+								{
+									"key": "finish_date",
+									"value": "2022-10-28",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "Finish",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/TugasDokumentasiApi/api/task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TugasDokumentasiApi",
+								"api",
+								"task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tasks",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/TugasDokumentasiApi/api/task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TugasDokumentasiApi",
+								"api",
+								"task"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "task_categories",
+			"item": [
+				{
+					"name": "task_categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/TugasDokumentasiApi/api/task_categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TugasDokumentasiApi",
+								"api",
+								"task_categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "task_categories",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "Biologi",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/TugasDokumentasiApi/api/task_categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TugasDokumentasiApi",
+								"api",
+								"task_categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "task_categories",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "Algoritma",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/TugasDokumentasiApi/api/task_categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TugasDokumentasiApi",
+								"api",
+								"task_categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "task_categories",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/TugasDokumentasiApi/api/task_categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TugasDokumentasiApi",
+								"api",
+								"task_categories"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
